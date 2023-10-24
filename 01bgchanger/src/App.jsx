@@ -22,6 +22,9 @@ function App() {
             <button
             onClick={()=>setColor("purple")}
             className="border-l rounded-lg bg-purple-600 font-bold px-8 py-2 shadow-xl text-white ">Purple</button>
+            <button
+            onClick={()=>setColor("red")}
+            className="border-l rounded-lg bg-red-600 font-bold px-8 py-2 shadow-xl text-white ">Red</button>
             </div>
           </div>
         </div>
